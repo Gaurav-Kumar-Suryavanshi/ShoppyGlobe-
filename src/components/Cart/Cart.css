@@ -1,0 +1,56 @@
+/* src/components/Cart/Cart.css */
+
+.cart-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cart-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cart-item p {
+  margin: 0.25rem 0;
+  color: #555;
+}
+
+.remove-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.remove-btn:hover {
+  background-color: #dc2626;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
